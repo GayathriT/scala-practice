@@ -5,6 +5,7 @@ object _1distinctArray {
      def main(args: Array[String]) {
      val res = distinctArray_1(input)
       println("Method 1")
+        res.map(e => print(s"${e} || "))
      }
   
   def distinctArray_1(inputArr: Array[Int]) = {
