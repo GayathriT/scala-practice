@@ -7,7 +7,7 @@ object _1LargestThreeNumbers {
         // print("sum of x + y = " + add(25,10));
         val input = Array(0,3,1,5,2,8,10,4)
         println("Method 1 ")
-        highest3(input)
+        highest3_1(input)
         
     }
     
