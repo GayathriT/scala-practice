@@ -7,7 +7,7 @@ object _1BinarySearch extends App {
   val inputArr = Array.range(1, 10)
   inputArr.map(e => print(s"$e | "))
   println()
-  val elem = 3
+  val elem = 1
   val res = BinarySearch(inputArr, elem)
   //if(!res) println("The Element is not in the List")
 
@@ -15,12 +15,12 @@ object _1BinarySearch extends App {
     val len = inArr.length
     //    val mid = len/2
 
-    if (len == 1 && data != inArr(len / 2)) {
+    if (len == 1 && data != inArr(0)) {
       println(s"$data is not present in the input Array")
       false
     } else {
 
-      if (data == inArr(len / 2)) {
+      if (data == inArr(0) || data == inArr(len / 2)) {
         println(s"$data is present in the input Array")
         true
       } else if (data < inArr(len / 2)) {
